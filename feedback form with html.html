@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working on another label</title>
+</head>
+<body>
+    <!--note: id,name, for and value are not necessary in table form
+         but type, label
+    and placeholder are necessary -->
+    <h2>Feedback Form</h2>
+    <p>kindly fill this form to make us serve you better</p>
+    <form action="label.html">
+        <label>Fullname</label>
+        <input type="text" id="Name" placeholder="Surname first">
+        <br>
+         <label for="Email">email</label>
+        <input type="email" name="" id="" placeholder="please enter your e-mail">
+       <br>
+        <label for="Password">password</label>
+       <input type="password"  placeholder="Enter password">
+       <br>
+       <input type="submit" name="" id="submit"><br>
+              <!--for drop down menu-->
+       <h3>Please rate our service</h3>
+       <select>
+       <option >EXCELLENT</option>
+       <option value="">Good</option>
+       <option value="3">fair</option>
+       <option value="2">Poor</option>
+       </select><br>
+       <!--for check button-->
+       <h3>Select place or places visited in Africa</h3>
+       <label for="">Nigeria</label>
+       <input type="checkbox"><br>
+       <label for="">Togo</label>
+       <input type="checkbox"><br>
+       <label for="">Ghana</label>
+
+       <input type="checkbox"><br>
+       <label for="">Others</label>
+       <input type="checkbox">
+       <!--for textarea-->
+       <h3>Do you have anything to say concerning us</h3>
+       <textarea 
+       name="" 
+       id="" 
+       cols="30" 
+       rows="10" 
+       placeholder="enter your message here">
+       </textarea><br>
+       <input type="submit">
+    </form>
+</body>
+</html>
